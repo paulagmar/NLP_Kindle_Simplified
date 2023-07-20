@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+from calculate_word_frequency import calculate_word_frequency
+from generate_histogram import generate_histogram
+from preprocess_text import preprocess_text
+
 if __name__ == '__main__':
   # Load the data.
   data = pd.read_csv('data.csv')
